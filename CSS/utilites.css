@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --third-color: #fff;
+    
+}
+
+
+.dark-theme {
+    --primary-color: #0f1118;
+    --secondary-color: #fff;
+    --third-color: #000106;
+    transition: color 0.6s;
+}
+
+html {
+    font-family:'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--primary-color);
+    transition: color 0.6s;
+}
+
+.btn {
+    background: var(--secondary-color);
+    padding: 10px;
+    text-decoration: none;
+    color: var(--primary-color);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+.btn:hover {
+    background: #ff4221;
+    color: var(--secondary-color);
+    transition: all 1s;
+}
+button{
+    cursor: pointer;
+}
