@@ -302,8 +302,8 @@ input{
         
     }
     .upper img{
-        height: 40vh;
-        width: 80vw;
+        height:300px;
+        width: 400px;
     }
     .hero{
         height: 160vh;
@@ -383,6 +383,10 @@ input{
     }
     .link{
         margin-bottom: 10vh;
+    }
+    .upper img{
+        height:200px;
+        width: 250px;
     }
 
 }
