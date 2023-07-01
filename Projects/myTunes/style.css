@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;600;700;800;900&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow',sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background: #270082;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height:8vh;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+header h1{
+    font-weight:900;
+}
+nav ul{
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    margin: 0 1vw;
+    border-bottom: 2px solid transparent;
+    height: 1%;
+   
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    border-bottom: 2px solid white;
+    
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    width: 100vw;
+    background-position: center;
+    background-image: url("./img/hero_image.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.hero .text{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.hero .text h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.hero .text h2{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.music-section{
+    background: #281154;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.content h1{
+    margin-right: 5px;
+    
+}
+.music-section p{
+    text-align: start;
+    font-size: 12px;
+    width: 60%;
+    font-weight: 600;
+    margin: auto;
+}
+.btn{
+    padding: 5px 10px;
+    border: 2px solid red;
+    background: transparent;
+    color: red;
+    
+    
+}
+.btn:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.transition{
+    transition: all 0.5s;
+}
+#p1{
+    font-weight: 300;
+    text-align: center;
+    
+}
+.desktop{
+  height: 50vh;   
+  margin: auto;
+  
+}
+.desktop img{
+  width: 100%;   
+  
+}
+.about-music{
+    display: flex;
+    padding-top: 400px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-music div h4{
+    text-align: center;
+    
+}
+.about-music div span{
+    text-align: justify;
+    font-size: 12px;
+}
+#p2{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    margin-top: 5vh;
+}
+.button button{
+    padding: 5px 20px;
+    border: 2px solid purple;
+    background: transparent;
+    color: purple;
+    margin-top: 40px;
+    
+}
+.button button:hover{
+        background: purple;
+        color: white;
+        cursor: pointer;
+        }
+.laptop{
+    margin-top: 40px;
+}
+.laptop img{
+    height: 60vh;
+}
+.banner{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./img/video.png');
+    min-height: 600px;
+    display: grid;
+    place-items: center;
+    font-size: 80%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+.banner img{
+    width: 100vw;
+    height: 200px;
+}
+.banner .grid-container p{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.gift_card img{
+    width: 80%;
+}
+.gift_card-content {
+    width: 40%;
+    
+}
+.gift_card-content h1 {
+    font-size: 15px;
+
+}
+.gift_card-content p {
+    font-size: 12px;
+
+}
+.gift-content{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.footer-upper .container{
+
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.footer-upper .container h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.footer-upper .container .footer-links ul{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-links ul li{
+    margin-left: 0px;
+    line-height: 1.2rem;
+}
+.footer-upper{
+    margin-top: 100px;
+    background: #1b0058;
+    color: white;
+}
+footer{
+    background: #270082;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:1300px) {
+    .container{
+        display:flex ;
+        flex-direction: column;
+    }
+    .footer-links{
+        text-align: center;
+    }
+    .footer-links h4{
+        width: 25%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .gift-content{
+        flex-direction: column;
+        margin: auto;
+        margin: 0 8vw;
+    }
+    .gift_card img{
+        width: 80vw;
+        margin-right:20vw ;
+        margin-bottom:10vh ;
+    }
+    .banner img{
+        width: 30vw;
+        height: 30vh;
+    }
+    .banner{
+        height: 30vh;
+    }
+    .music-section{
+        width: 100vw;
+    }
+    .music-section{
+        width: 100%;
+        display: flex;
+        height: 150vh;   
+    }
+    .music-section div p{
+        width: 100%;
+        margin-top: -1vh;
+    }
+    .hero {
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    
+    }
+    .laptop img{
+        width: 90vw;
+        height: 40vh;
+    }
+    .desktop img{
+        width: 90vw;
+        height: 40vh;
+        margin-left: -20vw;
+        margin-top: 10vh;
+    }
+    header{
+        flex-direction: column;
+        height: 15vh;
+    }
+    header li{
+        margin:0 5vw ;
+    }
+    .hero .text h1{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .hero .text h2{
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}

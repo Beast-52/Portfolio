@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Andika", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    box-shadow: 3px 0px 5px #0000006e;
+    z-index: 10;
+    background: #fff;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+li:hover a {
+    color: orange;
+    transition: 0.3s all ease-in-out;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: -40px;
+}
+
+.hero .text-content h1 {
+    font-size: 55px;
+}
+
+.hero .text-content h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.hero .text-content {
+    margin: 0 80px;
+}
+
+.hero .img img {
+    border-radius: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+.h-card {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    margin: 2rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e2e2;
+    width: 65%;
+    margin: auto;
+    margin-top: -40px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.9);
+    font-size: 1.2em;
+}
+
+.h-card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+
+    border: 2px solid #e2e2e2;
+    cursor: pointer;
+}
+
+.h-card .text-content {
+    font-size: 0.8em;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.h-card.text-content p {
+    font-size: 8px;
+    font-weight: 100;
+}
+
+.readmore {
+    font-weight: 700;
+}
+
+.readmore:hover a {
+    font-weight: 900;
+}
+
+.text-content .content h2 {
+    margin-top: -0px;
+}
+
+.readmore a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.readmore a:hover {
+    color: orange;
+    transition: 0.3s all ease-in-out;
+}
+
+.h-card .content-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-card img {
+    margin-bottom: -9px;
+    margin-right: -2px;
+}
+
+.row-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -65px;
+}
+
+.f-card {
+    flex-direction: column-reverse;
+    width: 435px;
+    transform: scale(0.65);
+    margin: 0 -2vw;
+    font-size: 1.4em;
+}
+
+.f-card:hover {
+    transform: scale(0.8);
+}
+
+.f-card img {
+    width: 430px;
+}
+
+.end-card .h-card:hover {
+    transform: scale(1.05);
+}
+footer{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;    
+    border-top:1px solid rgba(0, 0, 0, 0.363) ;
+    height: 40px;
+    align-items: center;
+    font-size: 0.8em;
+    margin-top: 40px;
+}
+footer .links{
+    display: flex;
+}
+.links li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.links li {
+    list-style: none;
+    transition: 0.3s all ease-in-out;
+
+}
+li:hover a {
+    color: orange;
+    transition: 0.3s all ease-in-out;
+}
+@media (max-width: 1300px) {
+    
+    header {
+        flex-direction: column;
+        height: 70px;
+        justify-content: center;
+        height: 100px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        height: 65vh;
+        text-align: center;
+    }
+    
+    .h-card {
+        flex-direction: column-reverse;
+        font-size: 1.2em;
+    }
+    
+    .h-card img {
+        width: 100%;
+    }
+    .row-card {
+        flex-wrap: wrap;
+    }
+    footer{
+        flex-direction: column;
+        height: 80px;
+    }
+    .links li{
+        padding: 20px 0;
+    }
+}
