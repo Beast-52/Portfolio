@@ -42,7 +42,12 @@ li:hover a {
     flex-direction: column;
     
     margin: 0 19vw;
+<<<<<<< HEAD
     height: 650px ;
+=======
+    
+    height: 70vh ;
+>>>>>>> b5c481af7e17f1ce68db63212d0761619bf7d376
     margin-top: 40px;
     width: 60vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.281);
@@ -133,6 +138,12 @@ li:hover a {
         margin-bottom: 0px;
         height: 100%;
         width: 60%;
+<<<<<<< HEAD
+    }
+    .hero img {
+       width: 60vw;
+=======
+>>>>>>> b5c481af7e17f1ce68db63212d0761619bf7d376
     }
     .hero img {
        width: 60vw;
