@@ -295,7 +295,7 @@ input{
         width: 16vw;
     }
 }
-@media (max-width:1300px) {
+@media (max-width:1200px) {
     .upper {
         flex-direction: column;
         height: 100vh;
@@ -348,4 +348,41 @@ input{
     #firstdiv{
         margin-right: 8vw;
     }
+}
+@media (max-width:800px) {
+    .grid{
+        height: 60vh;
+    }
+    #lastdiv{
+        margin-left: -7vw;
+    }
+    #Support{
+        margin-left:-5vw ;
+    }
+    .big{
+        margin-top: -30vh;
+    }
+}
+@media (max-width:500px) {
+    header{
+        justify-content: space-between;
+        padding: 0 5vw;
+    }
+    .grid{
+        height: 50vh;
+        
+    }
+    footer{
+        margin-top: -40vh;
+    }
+    #firstdiv{
+        margin-left: -5vw;
+    }
+    #lastdiv{
+        margin-left: -4vw;
+    }
+    .link{
+        margin-bottom: 10vh;
+    }
+
 }
