@@ -43,9 +43,9 @@ li:hover a {
     
     margin: 0 19vw;
     
-    height: 650px ;
+    height: 70vh ;
     margin-top: 40px;
-    width: 990px;
+    width: 60vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
 .status{
