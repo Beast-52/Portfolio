@@ -281,7 +281,7 @@ input{
     transition: all 0.5s ease-in-out;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.274);
 }
-@media (max-width:1000px) {
+@media (max-width:1400px) {
     .upper {
         flex-direction: column;
         height: 100vh;
@@ -312,6 +312,7 @@ input{
         margin-left: 25vw;
         
     }
+
     footer{
         flex-direction: column;
     }
