@@ -282,6 +282,20 @@ input{
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.274);
 }
 @media (max-width:1400px) {
+    .hero {
+        height: 70vh;
+    }
+    footer{
+        width: 100vw;
+    }
+    .link ul li{
+       width: 100%;
+    }
+    .logo{
+        width: 16vw;
+    }
+}
+@media (max-width:1300px) {
     .upper {
         flex-direction: column;
         height: 100vh;
@@ -294,6 +308,7 @@ input{
     .hero{
         height: 160vh;
     }
+    
     .feature{
         display: flex;
         flex-direction: column-reverse;
