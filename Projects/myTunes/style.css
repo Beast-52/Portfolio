@@ -39,7 +39,7 @@ li a{
     color: white;
     text-decoration: none;
 }
-li:hover{
+nav ul li:hover{
     border-bottom: 2px solid white;
     
 }
