@@ -190,7 +190,7 @@ li:hover a {
     color: orange;
     transition: 0.3s all ease-in-out;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     
     header {
         flex-direction: column;
@@ -202,13 +202,18 @@ li:hover a {
         flex-direction: column-reverse;
         height: 65vh;
         text-align: center;
+        
     }
     
     .h-card {
         flex-direction: column-reverse;
         font-size: 1.2em;
+        width: 420px;
     }
-    
+    .f-card .img img{
+        width: 420px;
+
+    }
     .h-card img {
         width: 100%;
     }
@@ -221,5 +226,17 @@ li:hover a {
     }
     .links li{
         padding: 20px 0;
+    }
+}
+@media (max-width:500px) {
+    .hero{
+        margin-top: 50px;
+        height: 90vh;
+    }
+    .h-card{
+        width: 80vw;
+    }
+    .f-card .img img{
+        width: 80vw;
     }
 }
