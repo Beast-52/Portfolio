@@ -281,7 +281,7 @@ input{
     transition: all 0.5s ease-in-out;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.274);
 }
-@media (max-width:1200px) {
+@media (max-width:1000px) {
     .upper {
         flex-direction: column;
         height: 100vh;
@@ -319,8 +319,15 @@ input{
     footer{
         height: 100vh;
     }
+    .link{
+        width: 60vw;
+        
+    }
+    #Support{
+        margin-right: -2%;
+    }
     #lastdiv{
-        margin-left: 4vw;
+        margin-right: -7%;
     }
     #firstdiv{
         margin-right: 8vw;
