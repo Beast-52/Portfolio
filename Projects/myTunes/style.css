@@ -125,7 +125,9 @@ nav ul li:hover{
 .desktop{
   height: 50vh;   
   margin: auto;
-  
+     width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 .desktop img{
   width: 100%;   
