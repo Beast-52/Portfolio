@@ -402,7 +402,8 @@ h1 {
     margin-bottom: 400px;
     justify-content: center;
     align-items: center;
-    
+    max-width:100vw;
+    overflow:hidden;
     flex-direction: column;
    padding: 4%;
 }
