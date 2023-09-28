@@ -425,9 +425,11 @@ position: relative;
 margin: 80px;
 
 }
-.card{
+
+.card {
     height: 300px;
     overflow: hidden;
+    min-width: 300px;
   }
 
 .card:hover{
