@@ -45,7 +45,8 @@
     top: 50vh;
     padding: 1vw;
     border-radius: 1vw;
-    
+    background:var(--secondary-color);
+    color:var(--secondary-color);
     margin: auto;
 }
 .sticky ul li a {
