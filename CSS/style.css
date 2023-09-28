@@ -67,7 +67,6 @@ header ul li a:hover {
 
 /*sticky-navbgar  */
 .sticky {
-    padding: 5px 100px;
     background: var(--secondary-color);
 }
 
