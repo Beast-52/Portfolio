@@ -113,6 +113,7 @@ header ul {
     }
     .serv-h1{
         margin: 0vh 0vw;
+        font-size:65px
     }
     .burger{
         position: absolute;
