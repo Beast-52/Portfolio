@@ -111,12 +111,7 @@ header ul {
         margin-top: 10vh;
 
     }
-    .container-2 .box::after{
-        display:none;
-    }
-    .container-2 .box::before{
-        display:none;
-    } 
+   
     .serv-h1{
         margin: 0vh 0vw;
         font-size:65px
