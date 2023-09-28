@@ -46,7 +46,7 @@
     padding: 1vw;
     border-radius: 1vw;
     border:var(--secondary-color);
-    color:var(--primary-color);
+    color:var(--secondary-color);
     background:transparent;
     margin: auto;
 }
