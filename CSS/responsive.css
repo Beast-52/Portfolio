@@ -75,6 +75,7 @@ header {
     align-items: center;
     flex-direction: column;
     height: 55vh;
+    padding:10px;
 }
 
 header ul {
