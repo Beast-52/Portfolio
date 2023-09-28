@@ -22,6 +22,7 @@
     right: -40%;
     margin: -5px;
     position: relative;
+    top:-2%
 }
 
 #services{
@@ -135,6 +136,7 @@ header ul {
         font-size: 60px;
 
     }
+    
     .card img{
         margin: 5%;
     }
@@ -142,6 +144,7 @@ header ul {
     
     #icon{
         position: relative;
+        top:-0%;
     }
     
     
