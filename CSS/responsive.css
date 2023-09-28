@@ -19,9 +19,9 @@
             border: 2px solid var(--primary-color);
         }
 #icon{
-    position: sticky;
-    top: 12%;
-    right: -58%; 
+      top: 11%;
+    right: -40%;
+    margin: -5px;
 }
 
 #services{
