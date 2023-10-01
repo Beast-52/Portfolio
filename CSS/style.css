@@ -477,7 +477,7 @@ margin: 80px;
     justify-content: space-evenly;
     flex-direction: row;
     position: relative;
-    bottom: -15vh;
+    bottom: -10vh;
     flex-wrap: wrap;
 }
 .card2{
