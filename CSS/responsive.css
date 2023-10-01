@@ -145,9 +145,6 @@ header ul {
     .card img{
         margin: 5%;
     }
-    #Projects{
-        min-height:150vh
-    }
     
     #icon{
         position: relative;
