@@ -191,7 +191,7 @@ header ul li a:hover {
 
 /* About Section */
 #About {
-    height: 100vh;
+    min-height: 100vh;
     background: var(--primary-color);
     position: relative;
     display: flex;
