@@ -36,7 +36,6 @@ burger.addEventListener('click', function run(){
 let all = document.getElementById("btn-4");
 let Cube = document.getElementById("btn-5");
 let text = document.getElementById("btn-6");
-let win = document.getElementById("btn-7");
 let content = document.getElementById("card-1");
 let content2 = document.getElementById("card-2");
 let content3 = document.getElementById("card-3");
@@ -48,18 +47,15 @@ all.addEventListener("click" , function() {
     content.style.display = 'block';
 });
 Cube.addEventListener("click" , function(){
+    content.style.display = 'block';
     content2.style.display = 'none';
     content3.style.display = 'none';
-    content.style.display = 'block';
 });
 text.addEventListener("click" , function(){
-    content.style.display = 'none';
-    content3.style.display = 'none';
+     content.style.display = 'none';
     content2.style.display = 'block';
-});
-win.addEventListener("click" , function(){
-    content.style.display = 'none';
     content3.style.display = 'block';
-    content2.style.display = 'none';
+    
 });
+
 
