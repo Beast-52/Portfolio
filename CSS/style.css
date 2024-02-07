@@ -635,11 +635,11 @@ footer p {
    text-transform: capitalize; 
 }
 .container-3 p{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .topic{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .right-side p{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
