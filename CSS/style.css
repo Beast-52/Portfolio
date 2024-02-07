@@ -277,14 +277,13 @@ h1 {
 }
 
 .container-2 .box {
-   position: relative;
-  width: 300px;
-  height: 350px;
-  background: var(--secondary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background: var(--third-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-2 .box::before {
@@ -336,17 +335,16 @@ h1 {
 }
 
 .container-2 .box .icon {
-   color: var(--clr);
-  width: 80px;
-  height: 80px;
-  box-shadow: 0 0 0 4px var(--secondary-color), 0 0 0 6px var(--clr);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5em;
-  background: var(--secondary-color);
-  transition: 0.5s ease-in-out;
-}
+    color: var(--clr);
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 0 4px var(--third-color), 0 0 0 6px var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    background: var(--third-color);
+    transition: 0.5s ease-in-out;
 }
 
 .container-2 .box:hover .icon {
@@ -357,22 +355,22 @@ h1 {
 
 .container-2 .box .content .text h3 {
     font-size: 1.5em;
-   color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 500;
     transition: 0.5s ease-in-out;
 }
 
 .container-2 .box:hover .content .text h3 {
-    color: var(--secondary-color);
+    color: var(--third-color);
 }
 
 .container-2 .box .content .text p {
-    color: var(--primary-color);
-  text-transform: capitalize;
+    color: var(--secondary-color);
+    text-transform: capitalize;
 }
 
 .container-2 .box:hover .content .text p {
-    color: var(--secondary-color);
+    color: var(--third-color);
 
 }
 
