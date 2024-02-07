@@ -350,7 +350,7 @@ h1 {
 .container-2 .box:hover .icon {
     background: var(--clr);
     color: var(--primary-color);
-    box-shadow: 0 0 0 4px var(--third-color), 0 0 0 500px var(--clr);
+    box-shadow: 0 0 0 4px var(--third-color), 0 0 0 300px var(--clr);
 }
 
 .container-2 .box .content .text h3 {
