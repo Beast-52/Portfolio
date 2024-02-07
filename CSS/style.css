@@ -351,6 +351,7 @@ h1 {
     background: var(--clr);
     color: var(--primary-color);
     box-shadow: 0 0 0 4px var(--primary-color), 0 0 0 300px var(--clr);
+    z-index:99;
 }
 
 .container-2 .box .content .text h3 {
