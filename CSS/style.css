@@ -362,16 +362,16 @@ h1 {
 }
 
 .container-2 .box:hover .content .text h3 {
-    color: var(--third-color);
+    color: var(--secondary-color);
 }
 
 .container-2 .box .content .text p {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-transform: capitalize;
 }
 
 .container-2 .box:hover .content .text p {
-    color: var(--third-color);
+    color: var(--secondary-color);
 
 }
 
