@@ -458,7 +458,7 @@ margin: 80px;
   height: 150px;
   box-shadow: 0 5px 20px var(--secondary-color);
   object-fit: cover;
-  object-position: center;
+  
 }
 
 .content-2{
