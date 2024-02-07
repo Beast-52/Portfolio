@@ -14,7 +14,7 @@ section{
 }
 /* Navbar */
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -280,7 +280,7 @@ h1 {
     position: relative;
     width: 300px;
     height: 350px;
-    background: var(--third-color);
+    background: var(--secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -338,46 +338,46 @@ h1 {
     color: var(--clr);
     width: 80px;
     height: 80px;
-    box-shadow: 0 0 0 4px var(--third-color), 0 0 0 6px var(--clr);
+    box-shadow: 0 0 0 4px var(--secondary-color), 0 0 0 6px var(--clr);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.5em;
-    background: var(--third-color);
+    background: var(--secondary-color);
     transition: 0.5s ease-in-out;
 }
 
 .container-2 .box:hover .icon {
     background: var(--clr);
-    color: var(--primary-color);
-    box-shadow: 0 0 0 4px var(--third-color), 0 0 0 300px var(--clr);
+    color: var(--secondary-color);
+    box-shadow: 0 0 0 4px var(--secondary-color), 0 0 0 300px var(--clr);
 }
 
 .container-2 .box .content .text h3 {
     font-size: 1.5em;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 500;
     transition: 0.5s ease-in-out;
 }
 
 .container-2 .box:hover .content .text h3 {
-    color: var(--third-color);
+    color: var(--secondary-color);
 }
 
 .container-2 .box .content .text p {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-transform: capitalize;
 }
 
 .container-2 .box:hover .content .text p {
-    color: var(--third-color);
+    color: var(--secondary-color);
 
 }
 
 .container-2 .box .content .text a {
     position: relative;
     background: var(--clr);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     padding: 8px 15px;
     display: inline-block;
     text-decoration: none;
@@ -386,7 +386,7 @@ h1 {
 }
 
 .container-2 .box:hover .content .text a {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     color: var(--clr);
 }
 
