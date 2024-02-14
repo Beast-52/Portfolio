@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 section{
@@ -100,7 +104,8 @@ header ul li a:hover {
 /* Home */
 #sec-1 {
     background: var(--primary-color);
-    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
     transition: all 0.6s;
     flex-wrap: wrap;
 }
