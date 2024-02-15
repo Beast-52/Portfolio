@@ -125,7 +125,7 @@ header ul {
         display:none;
     }
     .serv-h1{
-        margin: 0vh -6vw;
+        margin: 0vh -6.5vmax;
         font-size:65px
     }
     .burger{
