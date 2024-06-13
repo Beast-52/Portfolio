@@ -6,7 +6,9 @@
     box-sizing: border-box;
     
 }
-
+html,body{
+     overflow-x:hidden;
+}
 section{
     max-width:100vw;
     overflow-x:hidden;
